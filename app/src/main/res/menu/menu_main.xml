@@ -4,22 +4,22 @@
         xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/file"
-        android:title="Information">
+        android:title="New">
         <menu>
             <item
                 android:id="@+id/mnuNew"
-                android:icon="@mipmap/logo"
+
                 android:title="Profile" />
             <item
                 android:id="@+id/mnuOpen"
-                android:icon="@mipmap/ucl"
-                android:title="UEFA Champions League" />
+
+                android:title="Setting" />
         </menu>
     </item>
 
     <item
         android:id="@+id/mnuAbout"
-        android:icon="@mipmap/contact"
+        android:icon="@mipmap/icon1"
         app:showAsAction="ifRoom|withText"
         android:title="Contact" />
     <item
